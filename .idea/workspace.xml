@@ -19,11 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b976a37-2c13-4879-a969-c62c2c1b7ee2" name="Default Changelist" comment="" />
+    <list default="true" id="5b976a37-2c13-4879-a969-c62c2c1b7ee2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/get_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +53,52 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/selenium_course" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.get_method">
+    <configuration name="get_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_add_group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_method" />
         <item itemvalue="Python.test_add_group" />
+        <item itemvalue="Python.selenium" />
       </list>
     </recent_temporary>
   </component>
@@ -94,47 +151,52 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1592330507239">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1592390761016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592330507239" />
-    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1592330507239">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592390761016" />
+    <state width="1308" height="203" key="GridCell.Tab.0.bottom" timestamp="1592390360252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592330507238" />
-    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1592330507238">
+    <state width="1308" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
+    <state width="1308" height="203" key="GridCell.Tab.0.center" timestamp="1592390360252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592330507238" />
-    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1592330507239">
+    <state width="1308" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
+    <state width="1308" height="203" key="GridCell.Tab.0.left" timestamp="1592390360251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592330507239" />
-    <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1592329201424">
+    <state width="1308" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592390360251" />
+    <state width="1308" height="203" key="GridCell.Tab.0.right" timestamp="1592390360252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592329201424" />
-    <state width="1308" height="203" key="GridCell.Tab.1.center" timestamp="1592329201424">
+    <state width="1308" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1592390360254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592329201424" />
-    <state width="1308" height="203" key="GridCell.Tab.1.left" timestamp="1592329201424">
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592390360254" />
+    <state width="1308" height="203" key="GridCell.Tab.1.center" timestamp="1592390360253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592329201424" />
-    <state width="1308" height="203" key="GridCell.Tab.1.right" timestamp="1592329201424">
+    <state width="1308" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592390360253" />
+    <state width="1308" height="203" key="GridCell.Tab.1.left" timestamp="1592390360253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592329201424" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1592329171970">
+    <state width="1308" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592390360253" />
+    <state width="1308" height="203" key="GridCell.Tab.1.right" timestamp="1592390360254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592329171970" />
+    <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592390360254" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1592331604718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592331604718" />
     <state x="246" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592325740235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

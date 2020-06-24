@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b976a37-2c13-4879-a969-c62c2c1b7ee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_training.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/selenium_course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.get_method">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_add_group">
     <configuration name="get_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_method" />
         <item itemvalue="Python.test_add_group" />
+        <item itemvalue="Python.get_method" />
         <item itemvalue="Python.selenium" />
       </list>
     </recent_temporary>
@@ -161,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592390761016" />
-    <state width="1308" height="203" key="GridCell.Tab.0.bottom" timestamp="1592390360252">
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1592999156710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
-    <state width="1308" height="203" key="GridCell.Tab.0.center" timestamp="1592390360252">
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592999156710" />
+    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1592999156709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
-    <state width="1308" height="203" key="GridCell.Tab.0.left" timestamp="1592390360251">
+    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592999156709" />
+    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1592999156709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592390360251" />
-    <state width="1308" height="203" key="GridCell.Tab.0.right" timestamp="1592390360252">
+    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592999156709" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1592999156710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592390360252" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592999156710" />
     <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1592390360254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

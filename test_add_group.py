@@ -5,6 +5,8 @@ from selenium import webdriver
 import geckodriver_autoinstaller
 driver = webdriver.Chrome()
 import unittest, time, re
+from group import Group
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -31,16 +33,16 @@ class test_add_group(unittest.TestCase):
     def return_to_groups_page(self, wd):
         wd.find_element_by_link_text("Группы").click()
 
-    def create_group(self, wd, name, header, footer):
+    def create_group(self, wd, group):
         # init group creation
         wd.find_element_by_name("new").click()
         # fill group form
         wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys(name)
+        wd.find_element_by_name("group_name").send_keys(group.name)
         wd.find_element_by_name("group_header").clear()
-        wd.find_element_by_name("group_header").send_keys(header)
+        wd.find_element_by_name("group_header").send_keys(group.header)
         wd.find_element_by_name("group_footer").clear()
-        wd.find_element_by_name("group_footer").send_keys(footer)
+        wd.find_element_by_name("group_footer").send_keys(group.footer)
         time.sleep(5)
         # развернуть браузер на весь экран
         wd.maximize_window()
@@ -65,7 +67,7 @@ class test_add_group(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
-        self.create_group(wd, name="NameG", header="header", footer="bla bla bla")
+        self.create_group(wd, Group(name="NameG", header="header", footer="bla bla bla"))
         self.return_to_groups_page(wd)
         self.logaut(wd)
 
@@ -74,7 +76,7 @@ class test_add_group(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
-        self.create_group(wd, name="", header="", footer="")
+        self.create_group(wd, Group(name="", header="", footer=""))
         self.return_to_groups_page(wd)
         self.logaut(wd)
 
@@ -84,6 +86,7 @@ class test_add_group(unittest.TestCase):
 
     def tearDown(self):
         self.wd.quit()
+        driver.quit()
 
 
 if __name__ == "__main__":

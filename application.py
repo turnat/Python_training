@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 driver = webdriver.Chrome()
-import time
 
 class Application:
     def __init__(self):
@@ -12,7 +11,6 @@ class Application:
     def logaut(self):
         wd = self.wd
         wd.find_element_by_link_text("Выйти").click()
-        time.sleep(5)
 
     def return_to_groups_page(self):
         wd = self.wd
@@ -30,13 +28,9 @@ class Application:
         wd.find_element_by_name("group_header").send_keys(group.header)
         wd.find_element_by_name("group_footer").clear()
         wd.find_element_by_name("group_footer").send_keys(group.footer)
-        time.sleep(5)
-        # развернуть браузер на весь экран
-        wd.maximize_window()
         # submit group creation
         wd.find_element_by_name("submit").click()
         self.return_to_groups_page()
-
 
     def open_groups_page(self):
         wd = self.wd
@@ -53,6 +47,8 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
+        # развернуть браузер на весь экран
+        wd.maximize_window()
         wd.get("http://localhost/addressbook/")
 
     def destroy(self):

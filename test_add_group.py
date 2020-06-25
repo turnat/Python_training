@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 import unittest, time, re
 from group import Group
 from application import Application
-
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -18,6 +18,14 @@ from selenium.common.exceptions import NoAlertPresentException
 # Метод get сообщает браузеру, что нужно открыть сайт по указанной ссылке
 #driver.get("http://localhost/addressbook/")
 #time.sleep(5)
+
+@pytest.fixture
+def app(request):
+    fixture = Application()
+    request.addfinalizer(fixture.destroy)
+    return fixture
+
+
 class test_add_group(unittest.TestCase):
     def setUp(self):
         self.app = Application()

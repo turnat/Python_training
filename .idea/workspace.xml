@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b976a37-2c13-4879-a969-c62c2c1b7ee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -63,6 +63,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test_add_group">
+    <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +150,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_add_group" />
+        <item itemvalue="Python.application" />
         <item itemvalue="Python.get_method" />
         <item itemvalue="Python.selenium" />
       </list>
@@ -167,38 +189,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592390761016" />
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1592999156710">
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1593066554430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592999156710" />
-    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1592999156709">
+    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593066554430" />
+    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1593066554430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592999156709" />
-    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1592999156709">
+    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593066554430" />
+    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1593066554430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592999156709" />
-    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1592999156710">
+    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593066554430" />
+    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1593066554430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592999156710" />
-    <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1592390360254">
+    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593066554430" />
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1593026778413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592390360254" />
-    <state width="1308" height="203" key="GridCell.Tab.1.center" timestamp="1592390360253">
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593026778413" />
+    <state width="1308" height="203" key="GridCell.Tab.1.center" timestamp="1593026778413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592390360253" />
-    <state width="1308" height="203" key="GridCell.Tab.1.left" timestamp="1592390360253">
+    <state width="1308" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593026778413" />
+    <state width="1308" height="203" key="GridCell.Tab.1.left" timestamp="1593026778413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592390360253" />
-    <state width="1308" height="203" key="GridCell.Tab.1.right" timestamp="1592390360254">
+    <state width="1308" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593026778413" />
+    <state width="1308" height="203" key="GridCell.Tab.1.right" timestamp="1593026778413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592390360254" />
+    <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593026778413" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1592331604718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,6 +232,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_add_group.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="python-exception">
           <properties exception="BaseException" />

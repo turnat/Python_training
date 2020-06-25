@@ -26,18 +26,18 @@ class test_add_group(unittest.TestCase):
        
 
 
-    def logaut(self, wd):
+    def logaut(self):
         wd = self.wd
         wd.find_element_by_link_text("Выйти").click()
         time.sleep(5)
 
-    def return_to_groups_page(self, wd):
+    def return_to_groups_page(self):
         wd = self.wd
         wd.find_element_by_link_text("Группы").click()
 
-    def create_group(self, wd, group):
+    def create_group(self, group):
         wd = self.wd
-        self.open_groups_page(wd)
+        self.open_groups_page()
         # init group creation
         wd.find_element_by_name("new").click()
         # fill group form
@@ -52,35 +52,35 @@ class test_add_group(unittest.TestCase):
         wd.maximize_window()
         # submit group creation
         wd.find_element_by_name("submit").click()
-        self.return_to_groups_page(wd)
+        self.return_to_groups_page()
 
 
-    def open_groups_page(self, wd):
+    def open_groups_page(self):
         wd = self.wd
         wd.find_element_by_link_text("Группы").click()
 
-    def login(self, wd, username, password):
+    def login(self, username, password):
         wd = self.wd
-        self.open_home_page(wd)
+        self.open_home_page()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
         wd.find_element_by_name("pass").clear()
         wd.find_element_by_name("pass").send_keys(password)
         wd.find_element_by_css_selector("input[type=\"submit\"]").click()
 
-    def open_home_page(self, wd):
+    def open_home_page(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/")
 
     def test_add_group(self):
-        self.login(wd, username="admin", password="secret")
-        self.create_group(wd, Group(name="NameG", header="header", footer="bla bla bla"))
-        self.logaut(wd)
+        self.login(username="admin", password="secret")
+        self.create_group(Group(name="NameG", header="header", footer="bla bla bla"))
+        self.logaut()
 
     def test_add_empty_group(self):
-        self.login(wd, username="admin", password="secret")
-        self.create_group(wd, Group(name="", header="", footer=""))
-        self.logaut(wd)
+        self.login(username="admin", password="secret")
+        self.create_group(Group(name="", header="", footer=""))
+        self.logaut()
 
 
     def tearDown(self):

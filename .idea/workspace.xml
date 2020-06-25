@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -188,22 +188,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592390761016" />
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom" timestamp="1593069743204">
+    <state width="1309" height="163" key="GridCell.Tab.0.bottom" timestamp="1593085871529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593069743204" />
-    <state width="1308" height="163" key="GridCell.Tab.0.center" timestamp="1593069743204">
+    <state width="1309" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593085871529" />
+    <state width="1309" height="163" key="GridCell.Tab.0.center" timestamp="1593085871529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593069743204" />
-    <state width="1308" height="163" key="GridCell.Tab.0.left" timestamp="1593069743204">
+    <state width="1309" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593085871529" />
+    <state width="1309" height="163" key="GridCell.Tab.0.left" timestamp="1593085871529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593069743204" />
-    <state width="1308" height="163" key="GridCell.Tab.0.right" timestamp="1593069743204">
+    <state width="1309" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593085871529" />
+    <state width="1309" height="163" key="GridCell.Tab.0.right" timestamp="1593085871529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593069743204" />
+    <state width="1309" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593085871529" />
     <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1593026778413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -220,10 +220,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593026778413" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1592331604718">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1593083645559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592331604718" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593083645559" />
     <state x="246" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592325740235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,7 +234,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test_add_group.py</url>
-          <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
